@@ -66,11 +66,6 @@ The following do-files in `Income and stock/Scripts` should be run in order:
 2. Open `00_master.do` and set the path to the repository folder at the top of the file.
 3. Run `00_master.do`. Outputs are saved to `/out`.
 
-Tested with Stata  on 18.0 on Windows .
-
-## Citation
-[Authors]. [Title]. [Journal] [Year]. https://doi.org/xx.xxxx/xxxxx
+Tested with Stata on 18.0 on Windows.
 
 
-## Contact
-Corresponding author:
