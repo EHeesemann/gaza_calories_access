@@ -49,22 +49,6 @@ This analysis estimates monthly kilocalories (kcal) per person per day available
 6. exports the results to `Output data/kcal_left_monthly_oct23_sept25.xls`.
 **Note:** before running the script, set the global `root` to the `Local production` folder, e.g. `global root "C:/Users/[name]/[repository]/Local production"`, and create an `Output data` subfolder.
 
-## Incoming and stock
-### Input data
-The following datasets are included in `Income and stock/Input data`:
-* `dataset_1.xlsx`: [short description; source and download date, with link];
-* `dataset_2.csv`: [short description; source and download date, with link].
-
-### Scripts
-The following do-files in `Income and stock/Scripts` should be run in order:
-* `01_prepare_data.do` reads and cleans the input data;
-* `02_analysis.do` [main analysis];
-* `03_figures_tables.do` produces the figures and tables.
-## Replicating the analysis
-1. Download and unzip the repository (green **Code** button > **Download ZIP**), or clone it:
-   `git clone https://github.com/[username]/[repository].git`
-2. Open `00_master.do` and set the path to the repository folder at the top of the file.
-3. Run `00_master.do`. Outputs are saved to `/out`.
 
 Tested with Stata on 18.0 on Windows.
 
